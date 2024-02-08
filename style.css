@@ -101,7 +101,7 @@
 @media screen and (max-width:1088px){
     
 .container {
-    width: 95%;
+    width: 85%;
 }
 }
 @media screen and (max-width:917px){
@@ -119,12 +119,7 @@
         color:#ffff;
     }
 }
-@media screen and (max-width:534px){
-    .hero_section{
-        background-color: #000;
-        color:#ffff;
-    }
-    }
+
 
 
 /* header section end */
@@ -141,11 +136,12 @@
     width: 100%;
     background: url("./images/kanekiken.jpg") no-repeat;
     background-size: cover;
+    background-position: center;
     opacity: 50%;
     
     
 }
-.hero_section_content{
+.hero_section_content p{
     font-size: 18px;
     font-style: italic;
     padding: 20px 0;
@@ -172,7 +168,6 @@
     }
 
     .hero_section_content{
-        position:relative ;
         top: 15%;
         left: 5%;
     }
@@ -325,16 +320,18 @@
 .testimonial_section{
     
     text-align: center;
-    background: url("./images/laptop.jpg" )no-repeat;
+    background: url("./images/images\ \(1\).jpg" )no-repeat;
     background-size: cover;
+    background-position: center;
+    opacity: 50%;
     padding: 20px 0 30px 0;
-    color:#ffff;
+    color:#000;
 }
 .testimonial_section h2{
-    color:#ffff;
+    color:#000;
 }
 .testimonial_section h2::before{
-    background-color: #ffff;
+    background-color:#000;
 }
 .testimonial_card .testi_image img{
     height:120px;
